@@ -1,0 +1,13 @@
+[settings]
+raw_formats = file_extension1, file_extension2, ...
+video_formats = file_extension1, file_extension2, ...
+jpg_formats = file_extension1, file_extension2, ...
+input_dirs = dir1, dir2, ...
+raw_formats_output_dir = output_dir_for_raw_formats
+video_formats_output_dir = output_dir_for_video_formats
+jpg_formats_output_dir = output_dir_for_jpg_formats
+duplicate_dir = dir_for_duplicates
+log_dir = dir_for_logs
+error_dir = dir_for_error_files
+operation_scan = yes/no
+operation_run = yes/no
