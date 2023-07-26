@@ -1,5 +1,7 @@
 # Summary
 
+This script was created with the help from chatgpt. 
+
 This script is designed for processing media files such as RAW images, videos, and jpg formats from specified directories. It identifies the type of each file, reads its metadata (including camera make/model and created date), computes the hash of each file, and checks for duplicates in the SQLite database. It then moves each file to the appropriate output directory based on file type, camera make/model, and the creation date. If the file is identified as a duplicate, it's moved to a separate directory.
 
 The script uses a configuration file (`config.txt`) to set up parameters including the file formats it processes and the input and output directories.
